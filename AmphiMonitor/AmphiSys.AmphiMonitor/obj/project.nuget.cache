@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yqc3xrVcorKIth99oVNVwX2rdaPyXELmUPzRQNZqvzonOfjFA+iKb0cEHI6VrIdxks6J0RffMZZDmFcV/XT5mA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\larsm\\source\\repos\\AmphiMonitor\\AmphiMonitor\\AmphiSys.AmphiMonitor\\AmphiSys.AmphiMonitor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\larsm\\.nuget\\packages\\amphisys.monitor.monitordatamodel\\1.0.0.3\\amphisys.monitor.monitordatamodel.1.0.0.3.nupkg.sha512",
+    "C:\\Users\\larsm\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
