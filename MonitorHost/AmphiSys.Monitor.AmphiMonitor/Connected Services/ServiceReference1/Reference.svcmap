@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="7ff0ff8e-a742-4e5c-ae4a-72eab69b3111" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Microsoft.Servicemodel.Samples.wsdl" MetadataType="Wsdl" ID="ad061bf9-dfd3-4158-b16f-da92943097bb" SourceId="1" SourceUrl="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="e3ac0f71-6783-46e1-ae9a-3a73a7ca3473" SourceId="1" SourceUrl="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" />
+    <MetadataFile FileName="Microsoft.Servicemodel.Samples.xsd" MetadataType="Schema" ID="7c5eec96-61e5-4deb-97fb-ed6c9cdcb0ac" SourceId="1" SourceUrl="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="9ad89424-67a5-44b3-8bf6-827e468d7ba9" SourceId="1" SourceUrl="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" />
+    <MetadataFile FileName="AmphiSys.AmphiMonitor.WCFService.xsd" MetadataType="Schema" ID="fc873126-684e-47c8-b2b1-cc0e266eaa12" SourceId="1" SourceUrl="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" />
+    <MetadataFile FileName="AmphiSys.AmphiMonitor.Model.xsd" MetadataType="Schema" ID="24ce9e3a-329c-4195-b316-f7bba5113286" SourceId="1" SourceUrl="http://localhost:8000/AmphiSys.AmphiMonitor.WCFService/AmphiMonitorAccess/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

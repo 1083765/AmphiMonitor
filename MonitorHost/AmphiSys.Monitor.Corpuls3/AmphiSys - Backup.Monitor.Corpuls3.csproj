@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AmphiSys.Monitor.Measurements" Version="1.0.0.6" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Corpuls.Bluetooth">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\Corpuls.Bluetooth.dll</HintPath>
+    </Reference>
+    <Reference Include="Corpuls.Bluetooth.Connection">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\Corpuls.Bluetooth.Connection.dll</HintPath>
+    </Reference>
+    <Reference Include="Corpuls.Bluetooth.Domain">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\Corpuls.Bluetooth.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="Corpuls.Bluetooth.EcgDrawing">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\Corpuls.Bluetooth.EcgDrawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Corpuls.Bluetooth.FormatExport">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\Corpuls.Bluetooth.FormatExport.dll</HintPath>
+    </Reference>
+    <Reference Include="Corpuls.Bluetooth.I18n">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\Corpuls.Bluetooth.I18n.dll</HintPath>
+    </Reference>
+    <Reference Include="ECGConversion">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\ECGConversion.dll</HintPath>
+    </Reference>
+    <Reference Include="InTheHand.Net.Personal">
+      <HintPath>..\AmphiSys.Monitor.Lib\Corpuls3\InTheHand.Net.Personal.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="32feetWidcomm.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="btwapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="edcomm_x86.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
