@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Model classes describing Monitor Data</Description>
+    <PackageIcon></PackageIcon>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
+    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.0.3</Version>
+  </PropertyGroup>
+
+</Project>
